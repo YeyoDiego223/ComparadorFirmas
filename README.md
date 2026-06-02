@@ -11,7 +11,7 @@ externas**, solo `System.Drawing`).
 
 ## Captura de la aplicación
 
-![Ventana principal del comparador](capturas/app.png)
+![Ventana principal del comparador](capturas/Screenshot_2.png)
 
 ---
 
@@ -55,6 +55,16 @@ preprocesamiento antes de compararse.
 | 45 % – 69 % | Parecido moderado |
 | < 45 % | Firmas diferentes |
 
+### Ejemplos de comparación
+
+**Firmas muy parecidas** (similitud 84.5 %):
+
+![Comparación de firmas muy parecidas](capturas/Screenshot_7.png)
+
+**Parecido moderado** (similitud 45.8 %):
+
+![Comparación con parecido moderado](capturas/Screenshot_6.png)
+
 ---
 
 ## Requisitos
@@ -73,12 +83,24 @@ Desde terminal:
 dotnet run
 ```
 
-## Uso
+## Uso paso a paso
 
-1. Pulsa **Cargar firma 1** y elige una imagen.
-2. Pulsa **Cargar firma 2** y elige la segunda imagen.
-3. Pulsa **Comparar firmas**.
-4. Lee el porcentaje de similitud, el veredicto y el detalle de las métricas.
+**1. Pulsa "Cargar firma 1"** y elige una imagen:
+
+![Firma 1 cargada](capturas/Screenshot_1.png)
+
+**2. Pulsa "Cargar firma 2"** y elige la segunda imagen:
+
+![Firma 2 cargada](capturas/Screenshot_3.png)
+
+**3. Con ambas firmas cargadas**, pulsa **Comparar firmas**:
+
+![Ambas firmas cargadas](capturas/Screenshot_4.png)
+
+**4. Lee el resultado**: porcentaje de similitud, veredicto, detalle de métricas
+y el preprocesado de cada firma:
+
+![Resultado y preprocesado](capturas/Screenshot_5.png)
 
 ---
 
